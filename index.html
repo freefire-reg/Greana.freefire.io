@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Tournament Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Free Fire Tournament Registration</h1>
+        <form action="submit.html" method="POST">
+            <label for="name">Player Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="uid">Free Fire UID:</label>
+            <input type="text" id="uid" name="uid" required>
+
+            <label for="team">Team Name:</label>
+            <input type="text" id="team" name="team" required>
+
+            <label for="contact">Contact Number:</label>
+            <input type="tel" id="contact" name="contact" required pattern="[0-9]{10}">
+
+            <button type="submit">Register Now</button>
+        </form>
+    </div>
+</body>
+</html>
